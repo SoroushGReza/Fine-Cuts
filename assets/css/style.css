@@ -25,7 +25,7 @@
   
   /* Hero-image */
   .header {
-    background: url(../images/hero-image.gif) no-repeat center center;
+    background: url(../images/hero-image.gif) no-repeat center;
     height: 300px;
     width: 100%;
   }
