@@ -67,7 +67,6 @@ html {
 /* Gold-image */
 #gold {
   background: url(../images/gold.jpg) no-repeat;
-  width: 500px;
   height: 500px;
 }
 
@@ -118,8 +117,8 @@ p {
   padding: 2px;
 }
 
-#first-row {
-  padding-top: 13%;
+.first-row {
+  padding-top: 12%;
 }
 
 /* services */
