@@ -6,7 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     background-color: #e2d3c7;
-    border: 1px solid red;
+    jborder: 1px solid red;
   }
   
   .row::after {
@@ -102,17 +102,61 @@
 
   /*    **** SERVICES.HTML ****    */
 
+.separate-line {
+  background-color: #642b0d5d;
+  padding: 2px;
+}
+
+#first-row {
+  padding-top: 13%;
+}
+
+/* services */
 #hair-image {
   background: url(../images/hair.gif) no-repeat center;
   height: 400px;
-  width: 50%;
 }  
 
 #hair-text {
   height: 400px;
-  width: 50%;
   padding-top: 2%;
   font-size: 85%;
+}
+
+#nails-text {
+  height: 400px;
+  padding-top: 2%;
+  font-size: 85%;
+}
+
+#nails-image {
+  background: url(../images/nails.gif) no-repeat center;
+  height: 400px;
+} 
+
+#lashes-text {
+  height: 400px;
+  padding-top: 2%;
+  font-size: 85%;
+}
+
+#lashes-image {
+  background: url(../images/lashes.gif) no-repeat center;
+  height: 400px;
+}  
+
+
+/* lines */
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: #3a3a3a;
+  text-align: left;
+}
+
+.line-right {
+  float: right;
 }
 
 
