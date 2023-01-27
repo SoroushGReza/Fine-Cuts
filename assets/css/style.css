@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     background-color: #e2d3c7;
+    border: 1px solid red;
   }
   
   .row::after {
@@ -23,6 +24,7 @@
     font-family: Noto Serif Toto, Quicksand;
   }
   
+  /*    **** HOME.HTML ****    */
   /* Hero-image */
   .header {
     background: url(../images/hero-image.gif) no-repeat center;
@@ -84,15 +86,7 @@
     font-weight: 600;
   }
 
-  .footer-contact {
-    line-height: 0%;
-    text-align: center;
-    padding-top: 10%;
-    font-family: Unbounded;
-    color: #642b0d;
-  }
-
-  /* map */
+    /* map */
 #map-wrapper {
   height: 300px;
   margin-bottom: 107px;
@@ -103,6 +97,29 @@
   width: 100%;
   border: none;
 }
+
+
+
+  /*    **** SERVICES.HTML ****    */
+
+#hair-image {
+  background: url(../images/hair.gif) no-repeat center;
+  height: 400px;
+  width: 50%;
+}  
+
+
+  /* Footer */
+
+  .footer-contact {
+    line-height: 0%;
+    text-align: center;
+    padding-top: 10%;
+    font-family: Unbounded;
+    color: #642b0d;
+  }
+
+
   
 .social-networks {
   text-align: center;
@@ -131,6 +148,8 @@ li {
     width: 100%;
   }
   
+
+  /* Makes it responsive */
   @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
