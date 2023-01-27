@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   background-color: #e2d3c7;
-  jborder: 1px solid red;
+  gborder: 1px solid red;
 }
 
 .row::after {
@@ -156,6 +156,27 @@ p {
 #lashes-image {
   background: url(../images/lashes.gif) no-repeat center;
   height: 400px;
+}
+
+/*    **  CONTACT.html FORM-PAGE  **    */
+
+.ramen {
+  background: url(../images/ram.jpg);
+  opacity: 0.5;
+}
+
+legend {
+	font-size: 140%;
+	font-weight: 600;
+	text-transform: none;
+	margin: 20px 0 10px 0;
+}
+
+form {
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px auto;
+  border: 2px solid red;
 }
 
 
