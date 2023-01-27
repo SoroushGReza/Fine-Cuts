@@ -159,6 +159,12 @@ p {
 }
 
 /*    **  CONTACT.html FORM-PAGE  **    */
+#contact {
+  font-size: 120%;
+  border: 2px solid #642b0d;
+  color: #3a3a3a;
+  padding-top: 5px;
+}
 
 .ramen {
   background: url(../images/ram.jpg);
