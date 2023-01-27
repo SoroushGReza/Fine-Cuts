@@ -3,90 +3,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 
 * {
-    box-sizing: border-box;
-    text-decoration: none;
-    background-color: #e2d3c7;
-    jborder: 1px solid red;
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
-  
-  html {
-    font-family: Noto Serif Toto, Quicksand;
-  }
-  
-  /*    **** HOME.HTML ****    */
-  /* Hero-image */
-  .header {
-    background: url(../images/hero-image.gif) no-repeat center;
-    height: 300px;
-    width: 100%;
-  }
-  
-  /* Menu */
-  .menu {
-    list-style-type: none;
-    margin: 0%;
-    padding: 0;
-    font-size: 180%;
-    text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: #e2d3c7;
+  jborder: 1px solid red;
+}
 
-    color: #3a3a3a;
-    background-color: #e2d3c7;
-  }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-  .menu-link {
-    color: #3a3a3a;
-  }
-  
-  .menu-link:hover {
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    border-color: #642b0d;
-  }
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
 
-  #home {
-    font-size: 120%;
-    border: 2px solid #642b0d;
-    color: #3a3a3a;
-    padding-top: 5px;
-  }
+html {
+  font-family: Noto Serif Toto, Quicksand;
+}
 
-  /* Gold-image */
-  #gold {
-    background: url(../images/gold.jpg) no-repeat;
-    width: 500px;
-    height: 500px;
-  }
-  
-  /* text content - homepage */
-  .text-content-home h1 {
-    font-family: Unbounded;
-    text-align: center;
-    color: rgb(122, 103, 103);
-    float: right;
-  }
 
-  .text-content-home h1, p {
-    padding-top: 15%;
-  }
+/*    **** HOME.HTML ****    */
 
-  .text-content-home p {
-    font-family: Quicksand;
-    font-size: 130%;
-    font-weight: 600;
-  }
 
-    /* map */
+/* Hero-image */
+.header {
+  background: url(../images/hero-image.gif) no-repeat center;
+  height: 300px;
+  width: 100%;
+}
+
+/* Menu */
+.menu {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0;
+  font-size: 180%;
+  text-align: center;
+
+  color: #3a3a3a;
+  background-color: #e2d3c7;
+}
+
+.menu-link {
+  color: #3a3a3a;
+}
+
+.menu-link:hover {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: #642b0d;
+}
+
+#home {
+  font-size: 120%;
+  border: 2px solid #642b0d;
+  color: #3a3a3a;
+  padding-top: 5px;
+}
+
+/* Gold-image */
+#gold {
+  background: url(../images/gold.jpg) no-repeat;
+  width: 500px;
+  height: 500px;
+}
+
+/* text content - homepage */
+.text-content-home h1 {
+  font-family: Unbounded;
+  text-align: center;
+  color: rgb(122, 103, 103);
+  float: right;
+}
+
+.text-content-home h1,
+p {
+  padding-top: 15%;
+}
+
+.text-content-home p {
+  font-family: Quicksand;
+  font-size: 130%;
+  font-weight: 600;
+}
+
+/* map */
 #map-wrapper {
   height: 300px;
   margin-bottom: 107px;
@@ -100,7 +104,14 @@
 
 
 
-  /*    **** SERVICES.HTML ****    */
+/*    **** SERVICES.HTML ****    */
+
+#services {
+  font-size: 120%;
+  border: 2px solid #642b0d;
+  color: #3a3a3a;
+  padding-top: 5px;
+}
 
 .separate-line {
   background-color: #642b0d5d;
@@ -115,7 +126,7 @@
 #hair-image {
   background: url(../images/hair.gif) no-repeat center;
   height: 400px;
-}  
+}
 
 #hair-text {
   height: 400px;
@@ -134,7 +145,7 @@
 #nails-image {
   background: url(../images/nails.gif) no-repeat center;
   height: 400px;
-} 
+}
 
 #lashes-text {
   height: 400px;
@@ -146,7 +157,7 @@
 #lashes-image {
   background: url(../images/lashes.gif) no-repeat center;
   height: 400px;
-}  
+}
 
 
 /* lines */
@@ -163,18 +174,18 @@ hr {
 }
 
 
-  /* Footer */
+/* Footer */
 
-  .footer-contact {
-    line-height: 0%;
-    text-align: center;
-    padding-top: 10%;
-    font-family: Unbounded;
-    color: #642b0d;
-  }
+.footer-contact {
+  line-height: 0%;
+  text-align: center;
+  padding-top: 10%;
+  font-family: Unbounded;
+  color: #642b0d;
+}
 
 
-  
+
 .social-networks {
   text-align: center;
   color: #642b0d;
@@ -183,7 +194,7 @@ hr {
 
 .social-links {
   display: inline;
-  
+
 }
 
 .social-networks i {
@@ -196,41 +207,114 @@ hr {
 li {
   text-align: center;
 }
-  
-  /* For mobile phones: */
-  [class*="col-"] {
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+/* Makes it responsive */
+@media only screen and (min-width: 600px) {
+
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
     width: 100%;
   }
-  
+}
 
-  /* Makes it responsive */
-  @media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
   }
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+
+  .col-2 {
+    width: 16.66%;
   }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}
