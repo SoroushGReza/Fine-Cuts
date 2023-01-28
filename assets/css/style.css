@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   background-color: #e2d3c7;
-  gborder: 1px solid red;
+  border: 1px solid red;
 }
 
 .row::after {
@@ -105,6 +105,11 @@ p {
 
 /*    **** SERVICES.HTML ****    */
 
+#cloud-image {
+  background: url(../images/clouds.gif) no-repeat center;
+  height: 300px;
+}
+
 #services {
   font-size: 120%;
   border: 2px solid #642b0d;
@@ -159,6 +164,7 @@ p {
 }
 
 /*    **  CONTACT.html FORM-PAGE  **    */
+
 #contact {
   font-size: 120%;
   border: 2px solid #642b0d;
@@ -176,13 +182,14 @@ legend {
 	font-weight: 600;
 	text-transform: none;
 	margin: 20px 0 10px 0;
+  color: #642b0d;
 }
 
 form {
 	padding: 25px;
 	border-radius: 8px;
 	margin: 25px auto;
-  border: 2px solid red;
+  border: 2px solid #642b0d5d;
 }
 
 
