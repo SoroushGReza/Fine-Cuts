@@ -6,7 +6,6 @@
   box-sizing: border-box;
   text-decoration: none;
   background-color: #e2d3c7;
-  border: 1px solid red;
 }
 
 .row::after {
@@ -64,40 +63,35 @@ html {
   padding-top: 5px;
 }
 
-/* Gold-image */
-#gold {
-  background: url(../images/gold.jpg) no-repeat;
-  height: 500px;
+/* Wash-image */
+#wash {
+  background: url(../images/wash.jpg) no-repeat center center;
+  height: 683px;
+  opacity: 0.5;
+  margin-top: 5%;
 }
 
-/* text content - homepage */
-.text-content-home h1 {
-  font-family: Unbounded;
-  text-align: center;
-  color: rgb(122, 103, 103);
-  float: right;
-}
+#wash h2 {
+  background: none;
+  font-size: 180%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 
-.text-content-home h1,
-p {
-  padding-top: 15%;
-}
+  width: 500px;
+  height: 100px;
+  padding-top: 40px;
+  padding-left: 10px;
 
-.text-content-home p {
-  font-family: Quicksand;
-  font-size: 130%;
-  font-weight: 600;
+  background-color: rgb(227,190,170, 0.5);
+  position: absolute;
+  margin: 10%;
 }
 
 /* map */
-#map-wrapper {
-  height: 300px;
-  margin-bottom: 107px;
-}
 
-#map {
+.map {
   height: 40%;
-  width: 100%;
+  text-align: center;
   border: none;
 }
 
@@ -199,6 +193,7 @@ hr {
   border: none;
   height: 3px;
   background-color: #642b0d5d;
+  color: #b59785;
   text-align: left;
 }
 
