@@ -87,6 +87,23 @@ html {
   margin: 10%;
 }
 
+/* welcome-text */
+.welcome h2 {
+  font-family: Noto Serif Toto;
+  font-size: 220%;
+  text-align: center;
+  opacity: 0.6;
+  color: black;
+}
+
+.welcome h3 {
+  font-family: Quicksand;
+  font-size: 180%;
+  text-align: left;
+  color: #642b0d;
+  opacity: 0.7;
+}
+
 /* map */
 
 .map {
