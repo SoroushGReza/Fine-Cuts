@@ -31,7 +31,6 @@ html {
 .header {
   background: url(../images/hero-image.gif) no-repeat center;
   height: 300px;
-  width: 100%;
 }
 
 /* Menu */
@@ -65,7 +64,7 @@ html {
 
 /* Wash-image */
 #wash {
-  background: url(../images/wash.jpg) no-repeat center center;
+  background: url(../images/wash.jpg) no-repeat center;
   height: 683px;
   opacity: 0.5;
   margin-top: 5%;
@@ -73,11 +72,10 @@ html {
 
 #wash h2 {
   background: none;
-  font-size: 180%;
+  font-size: 140%;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 
-  width: 500px;
   height: 100px;
   padding-top: 40px;
   padding-left: 10px;
@@ -203,6 +201,11 @@ form {
 	padding: 25px;
 	border-radius: 8px;
 	margin: 25px auto;
+  float: left;
+}
+
+.the-form {
+  float: left;
 }
 
 .feel-free-to-call {
@@ -247,8 +250,6 @@ hr {
   font-size: 120%;
 }
 
-
-
 .social-networks {
   text-align: center;
   color: #642b0d;
@@ -258,7 +259,6 @@ hr {
 .social-links {
   display: inline;
   text-align: center;
-
 }
 
 .social-networks i {
