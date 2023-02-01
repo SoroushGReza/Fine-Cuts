@@ -19,8 +19,26 @@ Soroush Gholamreza
 [@Linkedin](https://www.linkedin.com/in/soroush-gholamreza-599173250?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FQsE%2FzLhQE6u79JhlmTYyg%3D%3D)
 <br> <br>
 
+## Responsiveness
+
+<img width="803" alt="responsive" src="https://user-images.githubusercontent.com/120245604/215983682-65cf47bc-2193-4f97-8902-e62111f52874.png">
+
+You want to try it out for yourself? -> [Responsivness check](https://ui.dev/amiresponsive?url=https://soroushgreza.github.io/Fine-Cuts/)
+<br> <br>
+
 ## Credits
-To Antonio Rodriguez - For providing me with the knowledge of how to make the website responsive with RWD - Grid view.
+
+### Content 
+* The social media fonts was taken from CI Love running Projoct.
+* The website color theme was formed after the wishes by Kristine Andersson.
+* The Structure of responsivness was taken from [W3 Schools](https://www.w3schools.com/css/css_rwd_grid.asp)
+
+### Media
+* The GIF and JPG images in the website was designed by [@Soroush](https://www.linkedin.com/in/soroush-gholamreza-599173250?),
+in the [Canva](https://canva.com).
+
+### Proving knowledge
+* Antonio Rodriguez - For providing me with the knowledge of how to make the website responsive with RWD - Grid view.
 <br>
 
 ## License
@@ -63,7 +81,7 @@ The pages opens and responds as they should.
 * A button for online booking makes it accessable for clients if the salon is busy. 
 * Online shop for aftercare products to be shipped or picked up at the salon, can help with the productsales, but also something that is somewhat time consuming for a small salons.
 
--But for this salon it would not have been a good fit right now, and it this stage this would be over my skill level to achieve.
+-But for this salon it would not have been a good fit right now. And some of those tasks would have been over my skill level at this moment.
 
 ## Errors in the readme file:
 
@@ -94,32 +112,37 @@ The errors and warnings that was validated that I could remember was as follows:
 
 (Found and deleted end tag, error resolved) <br>
 
+## Validator testing
+* HTML - No Warnings or Errors returned when passing through W3C Validator.
+* CSS - No  Warnings or Errors returned when passing through CSS (Jigsaw) Validator.
+* Accessibility - Lighthouse result below:
+<img width="449" alt="lighthouse" src="https://user-images.githubusercontent.com/120245604/215989619-290ffe2a-7008-41d5-b0f6-6989dafd4df6.png">
+
 ## User story:
 
 Looking around for a hairsalon and in this case I have been recommended one from a friend. I have the name of the company So I first land on the ”Home” page.  <br>
 
-<img width="960" alt="Skärmbild 2023-01-31 191908" src="https://user-images.githubusercontent.com/120245604/215819160-1bea2c2b-5ac2-4f2e-8530-50367c219aed.png">
+<img width="950" alt="home" src="https://user-images.githubusercontent.com/120245604/215983667-ffc960fc-0f28-4e37-875e-f26417e84477.png">
 <br>
 
 Here I can tell from the header that I have found the right salon. What I really want to know is basically where it is, how much is it, and a phone number. 
 
 From the Home page I scroll down and quickly find out the address and also the map helps me to faster locate how far from my house it is.  <br>
-<img width="960" alt="Skärmbild 2023-01-31 192515" src="https://user-images.githubusercontent.com/120245604/215820142-444997c6-c1e6-4631-94c5-d93c233b0615.png">
+<img width="784" alt="map" src="https://user-images.githubusercontent.com/120245604/215983675-db5a3b70-1a8c-4fc3-a4bd-1105ee80815c.png">
 <br>
 
 
 
-In the menu I find ”Services” here I expect to find the range of services given but also a price. 
+In the menu I find ”Services”, here I expect to find the range of services given but also a price. 
 
-I understand that there are a few different type services given, but since I am looking for a simple cut and color I see that they do offer this but not a price. 
+I understand that there are a few different type of services given, but since I am looking for a simple cut and color I see that they do offer this but not a price. 
 
 But the text states I should call. 
-<img width="960" alt="Skärmbild 2023-01-31 192852" src="https://user-images.githubusercontent.com/120245604/215821055-95963c74-4924-48aa-8732-2bf08cb8357e.png">
+<img width="673" alt="services" src="https://user-images.githubusercontent.com/120245604/215983676-ad53b985-a1b1-42dc-a85e-5b53c7f26a90.png">
 <br>
 So then i head over to the ”contact” page, and here I want to know the phone number, when I click on this page I get everything I need to know again. 
 
 Location and the contact options. I prefer to call and try to get an appointment but I have noted that I can send a message from the page as well, a tool I would use in case the salon does not answer me.
 
-<img width="960" alt="Skärmbild 2023-01-31 193451" src="https://user-images.githubusercontent.com/120245604/215822638-e899746c-a4f4-4a1c-9224-a9b99b53e821.png"> 
-
-
+<img width="857" alt="contact" src="https://user-images.githubusercontent.com/120245604/215983679-3b984d9d-9f7c-4721-9901-c82270c9907b.png">
+<br> <br>

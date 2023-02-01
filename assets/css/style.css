@@ -23,17 +23,11 @@ html {
   font-family: Noto Serif Toto, Quicksand;
 }
 
-
-/*    **** HOME.HTML ****    */
-
-
-/* Hero-image */
 .header {
   background: url(../images/hero-image.gif) no-repeat center;
   height: 300px;
 }
 
-/* Menu */
 .menu {
   list-style-type: none;
   margin: 0%;
@@ -62,7 +56,6 @@ html {
   padding-top: 5px;
 }
 
-/* Wash-image */
 #wash {
   background: url(../images/wash.jpg) no-repeat center;
   height: 683px;
@@ -85,7 +78,6 @@ html {
   margin: 10%;
 }
 
-/* welcome-text */
 .welcome h2 {
   font-family: Noto Serif Toto;
   font-size: 220%;
@@ -102,17 +94,11 @@ html {
   opacity: 0.7;
 }
 
-/* map */
-
 .map {
   height: 40%;
   text-align: center;
   border: none;
 }
-
-
-
-/*    **** SERVICES.HTML ****    */
 
 #cloud-image {
   background: url(../images/clouds.gif) no-repeat center;
@@ -135,7 +121,6 @@ html {
   padding-top: 12%;
 }
 
-/* services */
 #hair-image {
   background: url(../images/hair.gif) no-repeat center;
   height: 400px;
@@ -171,8 +156,6 @@ html {
   background: url(../images/lashes.gif) no-repeat center;
   height: 400px;
 }
-
-/*    **  CONTACT.html FORM-PAGE  **    */
 
 #contact {
   font-size: 120%;
@@ -219,9 +202,6 @@ form {
   font-size: 70%;
 }
 
-
-/* lines */
-
 hr {
   border: none;
   height: 3px;
@@ -233,9 +213,6 @@ hr {
 .line-right {
   float: right;
 }
-
-
-/* Footer */
 
 .footer-contact {
   line-height: 0%;
@@ -273,16 +250,12 @@ li {
   text-align: center;
 }
 
-/* For mobile phones: */
 [class*="col-"] {
   width: 100%;
 }
 
-
-/* Makes it responsive */
 @media only screen and (min-width: 600px) {
 
-  /* For tablets: */
   .col-s-1 {
     width: 8.33%;
   }
@@ -334,7 +307,6 @@ li {
 
 @media only screen and (min-width: 768px) {
 
-  /* For desktop: */
   .col-1 {
     width: 8.33%;
   }
