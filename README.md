@@ -65,7 +65,7 @@ In this section, we will discuss the design considerations for our project. <br>
 
 ## Color Scheme <br>
 The following color scheme was used for the project:
-![Color Scheme Image](./assets/images/color-scheme.jpg) <br><br>
+![Color Scheme Image](./assets/images/COLOR%20SCHEME.jpg) <br><br>
 
 ## Fonts <br>
 For this project, three fonts was selected:
