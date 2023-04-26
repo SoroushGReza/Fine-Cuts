@@ -106,8 +106,9 @@ The errors and warnings that was validated that I could remember was as follows:
 
 ##  Warnings: <br>
 * Forgetting to add lang attribute to every html file.
-
-(Resolved through adding ’lang=en’ to all html files) <br><br>
+(Resolved through adding ’lang=en’ to all html files) 
+* "Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed."
+(Resolved through removing sections warnings pointed too.) <br><br>
 
 ## Errors: <br>
 * Stray end tag [div] 
