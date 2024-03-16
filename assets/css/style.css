@@ -35,8 +35,9 @@ html {
 
 /* Hero-image (Home-page) */
 .header {
-  background: url(../images/hero-image.gif) no-repeat center;
+  background: url(../images/1.png) no-repeat center;
   height: 300px;
+  background-size: cover;
 }
 
 /* Menu */
@@ -111,8 +112,10 @@ html {
 
 /*  -  Services  -  */
 #cloud-image {
-  background: url(../images/clouds.gif) no-repeat center;
+  background: url(../images/2.png) no-repeat center;
   height: 300px;
+  background-size: cover;
+  left: 0;
 }
 
 #services {
