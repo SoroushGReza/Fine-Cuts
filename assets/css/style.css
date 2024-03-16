@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
 * {
   box-sizing: border-box;
   text-decoration: none;
@@ -16,7 +24,7 @@
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
+  padding: 0;
 }
 
 html {
@@ -27,6 +35,7 @@ html {
 .separate-line {
   background-color: #642b0d5d;
   padding: 2px;
+  margin-top: 15px;
 }
 
 .first-row {
@@ -38,6 +47,7 @@ html {
   background: url(../images/1.png) no-repeat center;
   height: 300px;
   background-size: cover;
+  margin-bottom: 35px;
 }
 
 /* Menu */
@@ -59,12 +69,13 @@ html {
 .menu-link:hover {
   border-top: 2px solid;
   border-bottom: 2px solid;
-  border-color: #642b0d;
+  border-color: #642b0d4e;
 }
 
 #home {
-  font-size: 120%;
-  border: 2px solid #642b0d;
+  font-size: 100%;
+  border-top: 1px solid #642b0d;
+  border-bottom: 1px solid #642b0d;
   color: #3a3a3a;
   padding-top: 5px;
 }
@@ -116,11 +127,13 @@ html {
   height: 300px;
   background-size: cover;
   left: 0;
+  margin-bottom: 35px;
 }
 
 #services {
-  font-size: 120%;
-  border: 2px solid #642b0d;
+  font-size: 100%;
+  border-top: 1px solid #642b0d;
+  border-bottom: 1px solid #642b0d;
   color: #3a3a3a;
   padding-top: 5px;
 }
@@ -164,19 +177,72 @@ html {
 
 
 /*  -  CONTACT  -  */
+
+.contact-image {
+  background: url(../images/3.png) no-repeat center;
+  height: 300px;
+  background-size: cover;
+  left: 0;
+  margin-bottom: 35px;
+}
+
 #contact {
-  font-size: 120%;
-  border: 2px solid #642b0d;
-  color: #3a3a3a;
-  padding-top: 5px;
+  font-size: 100%;
+    border-top: 1px solid #642b0d;
+    border-bottom: 1px solid #642b0d;
+    color: #3a3a3a;
+    padding-top: 5px;
+}
+
+h4 {
+  color: #525252;
+}
+
+fieldset {
+  border-radius: 9px;
+  border-color: white;
+  border: 8px solid #d1b27b8e;
 }
 
 legend {
 	font-size: 140%;
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: none;
 	margin: 20px 0 10px 0;
-  color: #565151;
+  color: #525252a3;
+}
+
+label {
+  margin-right: 5px;
+  color: #3a3a3aa1;
+}
+
+.phone-label {
+  margin-right: 1px;
+}
+
+input {
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid rgba(111, 111, 111, 0.639);
+}
+
+textarea {
+  border-radius: 9px;
+  width: 100%;
+}
+
+.send {
+  background-color: rgba(0, 18, 121, 0.822);
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  padding: 10px 25px 10px 25px;
+}
+
+.send:hover {
+  background-color: rgba(0, 7, 48, 0.822);
 }
 
 /* Form */
@@ -201,6 +267,7 @@ form {
   text-align: center;
   margin: 3%;
   color: #642b0d;
+  border-radius: 5px;
 }
 
 .address-legend {
@@ -211,6 +278,7 @@ form {
   text-align: center;
   margin: 3%;
   color: #642b0d;
+  border-radius: 5px;
 }
 
 hr {
